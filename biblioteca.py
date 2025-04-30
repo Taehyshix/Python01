@@ -25,3 +25,9 @@ def numero (num):
         else: "N"
     else:
         return "Z"
+
+def soma (*a):
+    soma=0
+    for x in range(len(a)):
+        soma=soma+a[x]
+    print(soma)
