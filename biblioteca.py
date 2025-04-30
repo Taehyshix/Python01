@@ -8,3 +8,9 @@ def piramide(num):
         for i in range(0, x):
             print(x, end=" ")
         print()
+def conta_vogais (texto):
+    cont = 0
+    for x in range(len(texto)):
+        if texto[x] in "aeiouAEIOU":
+            cont = cont+1
+    print(cont)
