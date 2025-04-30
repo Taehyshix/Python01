@@ -17,3 +17,11 @@ def conta_vogais (texto):
 def estoque (produto, quantidade, valor):
     calculo = quantidade * valor
     print(f"Você tem R${calculo} de {produto} no seu estoque.")
+
+def numero (num):
+    if num != 0:
+        if num>0:
+            return "P"
+        else: "N"
+    else:
+        return "Z"
