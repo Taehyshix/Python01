@@ -14,3 +14,6 @@ def conta_vogais (texto):
         if texto[x] in "aeiouAEIOU":
             cont = cont+1
     print(cont)
+def estoque (produto, quantidade, valor):
+    calculo = quantidade * valor
+    print(f"Você tem R${calculo} de {produto} no seu estoque.")
